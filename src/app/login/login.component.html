@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Connexion
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <form>
+    <ion-item>
+      <ion-label position="floating">Adresse e-mail</ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Mot de passe</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+
+    <ion-button expand="block" type="submit">Se connecter</ion-button>
+  </form>
+
+  <div class="ion-text-center ion-padding-top">
+    <p>Pas encore de compte ?</p>
+    <ion-button fill="clear" routerLink="/inscription">Inscrivez-vous</ion-button>
+  </div>
+</ion-content>

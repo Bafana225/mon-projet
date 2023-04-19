@@ -1,0 +1,37 @@
+ion-content {
+  --background: #F9FAFB;
+}
+
+ion-item {
+  --background: #FFFFFF;
+  --border-color: #E5E5E5;
+  --border-width: 2px;
+  --border-radius: 8px;
+  --padding-start: 12px;
+  --padding-end: 12px;
+}
+
+ion-button[type="submit"] {
+  --background: #007BFF;
+  --border-radius: 8px;
+  --box-shadow: none;
+  --color: #FFFFFF;
+  --padding-start: 24px;
+  --padding-end: 24px;
+  --padding-top: 8px;
+  --padding-bottom: 8px;
+  font-weight: bold;
+}
+
+ion-button[type="submit"]:hover {
+  --background: #0069D9;
+}
+
+ion-button[type="submit"]:focus {
+  --background: #0069D9;
+}
+
+ion-button[fill="clear"] {
+  --color: #007BFF;
+  font-weight: bold;
+}
