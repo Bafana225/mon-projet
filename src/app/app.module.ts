@@ -9,13 +9,13 @@ import { ProduitsComponent } from './produits/produits.component';
 import { AppRoutingModule } from './app.routes';
 
 
+
+
 @NgModule({
   declarations: [
-
     ClientsComponent,
     CommandesComponent,
     FournisseursComponent,
-
     LoginComponent,
     ProduitsComponent
   ],

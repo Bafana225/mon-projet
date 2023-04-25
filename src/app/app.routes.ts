@@ -9,7 +9,8 @@ import { LoginComponent } from './login/login.component';
 import { ProduitsComponent } from './produits/produits.component';
 
 export const routes: Routes = [
-  { path: '', component: HomePage },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'home', component: HomePage },
   { path: 'clients', component: ClientsComponent },
   { path: 'commandes', component: CommandesComponent },
   { path: 'fournisseurs', component: FournisseursComponent },
